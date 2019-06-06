@@ -3,6 +3,7 @@
            height: 610px;
            width: 1300px;
            background-color:cornsilk;
+	   overflow: hidden;
       
 }
 .header{
