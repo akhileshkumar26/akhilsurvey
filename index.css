@@ -146,7 +146,7 @@ top:22%;
 .slider5::-moz-range-thumb{
  
   width: 25px;
-  height: 25px;
+  height: 15px;
   border-radius: 50%;
   background: #4CAF50;
  cursor: pointer;
@@ -231,7 +231,7 @@ top:22%;
 {
  
   width: 25px;
-  height: 25px;
+  height: 15px;
   border-radius: 50%;
   background: #4CAF50;
   cursor: pointer;
@@ -285,7 +285,7 @@ top:22%;
 .slider25::-moz-range-thumb{
  
   width: 25px;
-  height: 25px;
+  height: 15px;
   border-radius: 50%;
   background: #4CAF50;
  cursor: pointer;
@@ -322,7 +322,7 @@ cursor: pointer;
 .slider29::-moz-range-thumb{
 
 width: 25px;
-height: 25px;
+height: 15px;
 border-radius: 50%;
 background: #4CAF50;
 cursor: pointer;
