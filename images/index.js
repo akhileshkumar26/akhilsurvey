@@ -5,15 +5,21 @@ function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
+
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
+
+  if (n > x.length) {
+    slideIndex = x.length;
+  }
+
   if (n < 1) {slideIndex = x.length}
+  
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "block"; 
 }
 
 var slider1 = document.getElementById("myRange1");
@@ -168,13 +174,7 @@ output21.innerHTML = slider9.value;
 slider21.oninput = function() {
   output21.innerHTML = this.value;
 }
-var slider22 = document.getElementById("myRange22");
-var output22= document.getElementById("demo22");
-output22.innerHTML = slider22.value;
-
-slider22.oninput = function() {
-  output22.innerHTML = this.value;
-}
+ 
 var slider23 = document.getElementById("myRange23");
 var output23 = document.getElementById("demo23");
 output23.innerHTML = slider23.value;
